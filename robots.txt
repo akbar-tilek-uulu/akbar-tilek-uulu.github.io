@@ -1,0 +1,194 @@
+# robots.txt — Тилек Уулу Ахбар / Akhbar Tilek Uulu
+# https://akbar-tilek-uulu.github.io/
+#
+# Политика: сайт полностью открыт для поисковых систем и AI-ассистентов.
+# Отдельно закрыты коммерческие скраперы-агрегаторы данных о людях — они не дают
+# цитирований в ассистентах, а перепродают профили третьим лицам.
+#
+# По RFC 9309 краулер использует ТОЛЬКО самую специфичную подходящую группу и не
+# читает группу "*", если нашёл свою. Поэтому именные группы ниже — это страховка
+# на случай, если в "*" когда-нибудь появится запрет.
+
+# ---------------------------------------------------------------------------
+# OpenAI — https://developers.openai.com/api/docs/bots
+# ---------------------------------------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Anthropic (Claude) — https://support.claude.com/en/articles/8896518
+# ---------------------------------------------------------------------------
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Google — https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers
+# Google-Extended управляет использованием контента в Gemini и Vertex AI.
+# ---------------------------------------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: Google-GeminiNotebook
+Allow: /
+
+User-agent: Google-Agent
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Microsoft / Bing — кормит и обычный поиск, и Copilot
+# ---------------------------------------------------------------------------
+User-agent: bingbot
+Allow: /
+
+User-agent: MicrosoftPreview
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Perplexity — https://docs.perplexity.ai/guides/bots
+# ---------------------------------------------------------------------------
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Apple (Siri, Spotlight, Apple Intelligence)
+# ---------------------------------------------------------------------------
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Meta AI
+# ---------------------------------------------------------------------------
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: meta-externalfetcher
+Allow: /
+
+User-agent: Meta-WebIndexer
+Allow: /
+
+User-agent: FacebookExternalHit
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Amazon
+# ---------------------------------------------------------------------------
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Amzn-SearchBot
+Allow: /
+
+User-agent: Amzn-User
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Yandex — независимый индекс; критично для RU/KZ и для Яндекс Нейро.
+# YandexAdditional / YandexAdditionalBot = токены opt-out из AI-ответов, не трогать.
+# ---------------------------------------------------------------------------
+User-agent: YandexBot
+Allow: /
+
+User-agent: YandexAdditional
+Allow: /
+
+User-agent: YandexAdditionalBot
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Common Crawl — попадает в открытые датасеты, из которых обучаются многие модели
+# ---------------------------------------------------------------------------
+User-agent: CCBot
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Прочие ассистенты и поисковые движки
+# ---------------------------------------------------------------------------
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Seznam
+Allow: /
+
+# ---------------------------------------------------------------------------
+# ЗАКРЫТО: коммерческие скраперы досье на людей.
+# Они не приводят к цитированию ни в одном ассистенте — их продукт в том, чтобы
+# собрать и перепродать профиль частного лица. Если тебе это не важно —
+# просто удали этот блок.
+# ---------------------------------------------------------------------------
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Panscient
+Disallow: /
+
+User-agent: panscient.com
+Disallow: /
+
+User-agent: aiHitBot
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# Все остальные
+# ---------------------------------------------------------------------------
+User-agent: *
+Allow: /
+
+Sitemap: https://akbar-tilek-uulu.github.io/sitemap.xml

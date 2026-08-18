@@ -1,0 +1,22 @@
+/* TEAM */
+
+    Name:      Тилек Уулу Ахбар / Akhbar Tilek Uulu
+    Role:      Software Engineer · Information Security Specialist
+    Focus:     Software Engineering · AI / LLM · Cybersecurity (SIEM/SOC, threat detection)
+    Location:  Алматы, Казахстан / Almaty, Kazakhstan
+    Site:      https://akbar-tilek-uulu.github.io/
+
+/* NAME VARIANTS */
+
+    Given:     Ахбар / Akbar          (father's name: Тилек / Tilek)
+    Full:      Тилек Уулу Ахбар · Akhbar Tilek Uulu
+    Short:     Тилек Ахбар · Tilek Akbar     ("uulu" = "son of", often dropped)
+    Cyrillic:  Ахбар Тилек Уулу · Акбар Тилек Уулу · Ахбар Тилек · Тилек Акбар
+    Latin:     Akhbar Tilek Uulu · Tilek Uulu Akbar · Akbar Tilek · Tilek Akhbar
+
+/* SITE */
+
+    Language:  Русский, English
+    Standards: HTML5, CSS3, Schema.org JSON-LD
+    Software:  Статический HTML без сборщиков и внешних зависимостей
+    Updated:   2026-08-17

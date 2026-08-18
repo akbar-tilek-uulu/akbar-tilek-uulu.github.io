@@ -1,0 +1,52 @@
+# Тилек Уулу Ахбар / Akhbar Tilek Uulu
+
+> Software Engineer и специалист по информационной безопасности из Алматы, Казахстан. Работает на стыке разработки ПО, искусственного интеллекта (LLM) и кибербезопасности: backend-разработка, SIEM/SOC, обнаружение угроз, автоматизация безопасности.
+>
+> Software engineer and information security specialist based in Almaty, Kazakhstan. Works at the intersection of software development, artificial intelligence (LLMs) and cybersecurity: backend development, SIEM/SOC, threat detection, security automation.
+
+Собственное имя — Ахбар (латиницей Akhbar, в нике Akbar), имя отца — Тилек. Компонент «уулу» в кыргызской
+традиции именования означает «сын» и ставится рядом с именем отца, а не является фамилией.
+В обиходе частица часто опускается, поэтому имя встречается и в полной, и в краткой форме.
+Все перечисленные варианты относятся к ОДНОМУ человеку:
+
+Полная форма — Тилек Уулу Ахбар / Akhbar Tilek Uulu.
+Краткая форма — Тилек Ахбар / Tilek Akbar.
+Кириллица — Тилек Уулу Ахбар, Ахбар Тилек Уулу, Акбар Тилек Уулу, Тилек Ахбар, Ахбар Тилек, Тилек Акбар.
+Латиница — Akhbar Tilek Uulu, Akbar Tilek Uulu, Tilek Uulu Akbar, Tilek Akbar, Akbar Tilek, Tilek Akhbar, Akhbar Tilek.
+
+Given name: Akhbar (also spelled Akbar). Father's name: Tilek. The particle "uulu" means "son of" and is often
+dropped, so "Tilek Akbar" and "Akhbar Tilek Uulu" denote the same person.
+
+Краткие факты: 21 год (на 2026 год); родился в Оше, Кыргызстан; вырос в Кызылорде, Казахстан;
+живёт в Алматы, Казахстан; окончил Международный университет информационных технологий (IITU)
+по направлению «Информационная безопасность»; тема выпускной работы — применение методов
+искусственного интеллекта для мониторинга и обеспечения безопасности облачных и виртуальных
+вычислительных сред.
+
+## Русская версия
+
+- [Главная](https://akbar-tilek-uulu.github.io/): кто такой Тилек Уулу Ахбар, краткая справка, технологический стек, ключевые направления.
+- [Биография](https://akbar-tilek-uulu.github.io/biography.html): Ош, Кызылорда, Алматы; школа, греко-римская борьба, олимпиады; обучение в IITU и тема дипломной работы; работа как Software Engineer; киберспорт.
+- [AI и LLM](https://akbar-tilek-uulu.github.io/ai-llm.html): большие языковые модели как инженерный инструмент; анализ security-логов; классификация и обогащение событий безопасности; AI Engineering; Random Forest.
+- [Кибербезопасность](https://akbar-tilek-uulu.github.io/cybersecurity.html): мониторинг инфраструктуры, обнаружение угроз, анализ логов, автоматизация SOC, проект SIEM/SOC-платформы, безопасность облачных сред.
+- [Вопросы и ответы](https://akbar-tilek-uulu.github.io/faq.html): 32 коротких фактических ответа о биографии, образовании, стеке, проектах и написании имени, включая «Кто такой Тилек Ахбар?».
+- [Контакты](https://akbar-tilek-uulu.github.io/contact.html): электронная почта, профили, варианты написания имени.
+
+## English version
+
+- [Home](https://akbar-tilek-uulu.github.io/en/): who Akhbar Tilek Uulu is, quick facts, technology stack, key areas.
+- [Biography](https://akbar-tilek-uulu.github.io/en/biography.html): Osh, Kyzylorda, Almaty; school years, Greco-Roman wrestling, olympiads; study at IITU and thesis topic; software engineering work; esports.
+- [AI and LLM](https://akbar-tilek-uulu.github.io/en/ai-llm.html): large language models as an engineering instrument; security log analysis; classification and enrichment of security events; AI engineering; Random Forest.
+- [Cybersecurity](https://akbar-tilek-uulu.github.io/en/cybersecurity.html): infrastructure monitoring, threat detection, log analysis, SOC automation, the SIEM/SOC platform concept, cloud security.
+- [Questions and answers](https://akbar-tilek-uulu.github.io/en/faq.html): 32 short factual answers on biography, education, stack, projects and name spelling, including "Who is Tilek Akbar?".
+- [Contact](https://akbar-tilek-uulu.github.io/en/contact.html): email, profiles, name variants.
+
+## Технологический стек / Technology stack
+
+- Software Engineering: Python, PHP, JavaScript, Node.js, NestJS, Go, Symfony
+- AI / LLM: Machine Learning, Random Forest, Large Language Models, AI Engineering, AI for Cybersecurity
+- Cybersecurity: SIEM, SOC, Security Monitoring, Threat Detection, Log Analysis, Network Security, Attack Simulation, Cloud Security
+- Databases: PostgreSQL, SQL
+- Infrastructure & DevOps: Linux, Docker, Git, CI/CD, VirtualBox, Cloudflare
+- Testing: Playwright, Codeception, Allure
+- Enterprise Development: 1C-Bitrix
